@@ -26,3 +26,4 @@ C:\Users\shivang.chauhan\Desktop\Dot Net\C#\Practicles\Practical - 1\Calculator\
 C:\Users\shivang.chauhan\Desktop\Dot Net\C#\Practicles\Practical - 1\Calculator\Calculator\obj\Debug\net10.0\Calculator.pdb
 C:\Users\shivang.chauhan\Desktop\Dot Net\C#\Practicles\Practical - 1\Calculator\Calculator\obj\Debug\net10.0\Calculator.genruntimeconfig.cache
 C:\Users\shivang.chauhan\Desktop\Dot Net\C#\Practicles\Practical - 1\Calculator\Calculator\obj\Debug\net10.0\ref\Calculator.dll
+C:\Users\shivang.chauhan\Desktop\Dot Net\C#\Practicles\Practical - 1\Calculator\Calculator\obj\Debug\net10.0\Calculator.sourcelink.json
