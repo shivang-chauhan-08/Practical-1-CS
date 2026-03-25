@@ -1,38 +1,5 @@
 ﻿using System;
 
-public interface ICalculatorOperations
-{
-    int Add(int a, int b);
-    int Sub(int a, int b);
-    int Mul(int a, int b);
-    double Div(int a, int b);
-}
-
-public class CalculatorOperations : ICalculatorOperations
-{
-    public int Add(int a, int b)
-    {
-        return a + b;
-    }
-    public int Sub(int a, int b)
-    {
-        return a - b;
-    }
-    public int Mul(int a, int b)
-    {
-        return a * b;
-    }
-    public double Div(int a, int b)
-    {
-        return (double)a / b;
-    }
-}
-
-class InvalidInput : Exception
-{
-    public InvalidInput(string msg) : base(msg) { }
-}
-
 class Program
 {
     public static void Main(string[] args)
@@ -44,19 +11,14 @@ class Program
             Console.Write("Enter 1st Integer : ");
             int a = Convert.ToInt32(Console.ReadLine());
 
-            if(a < 0)
-            {
-                throw new InvalidInput("1st Integer cannot be less than zero.");
-            }
-
             Console.WriteLine();
 
             Console.Write("Enter 2nd Integer : ");
             int b = Convert.ToInt32(Console.ReadLine());
 
-            if(b < 0)
+            if(b == 0)
             {
-                throw new InvalidInput("2nd Integer cannot be less than zero.");
+                throw new InvalidInput("2nd Integer cannot be zero.");
             }
 
             Console.WriteLine();
