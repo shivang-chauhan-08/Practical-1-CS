@@ -61,17 +61,12 @@ class Program
 
             Console.WriteLine();
 
-            int add = calc.Add(a, b);
-            int sub = calc.Sub(a, b);
-            int mul = calc.Mul(a, b);
-            double divide = calc.Div(a, b);
-
             Console.WriteLine("Results : ");
             Console.WriteLine();
-            Console.WriteLine($"Addition : {add}");
-            Console.WriteLine($"Subtraction : {sub}");
-            Console.WriteLine($"Multiplication : {mul}");
-            Console.WriteLine($"Division : {divide:N3}");
+            Console.WriteLine($"Addition : {calc.Add(a, b)}");
+            Console.WriteLine($"Subtraction : {calc.Sub(a, b)}");
+            Console.WriteLine($"Multiplication : {calc.Mul(a, b)}");
+            Console.WriteLine($"Division : {calc.Div(a, b):N3}");
         }
         catch (DivideByZeroException e)
         {
